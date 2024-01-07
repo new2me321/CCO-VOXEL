@@ -23,7 +23,7 @@
 </include> -->
 
 	
-	   <node pkg="CCO_VOXEL" type="pcNoise" name="pcNoise">
+	   <node pkg="CCO_VOXEL" type="pcNoise" name="pcNoise" output="screen">
         <param name="noise" value="0.15"/>
         <remap from="output" to="output2"/>
     </node>
